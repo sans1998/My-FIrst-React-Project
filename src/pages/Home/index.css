@@ -1,0 +1,23 @@
+.item {
+  width: 100%;
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove,
+.remove:hover {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: unset;
+  font-family: system-ui;
+  color: #4a1515;
+}
